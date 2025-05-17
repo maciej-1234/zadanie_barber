@@ -16,7 +16,63 @@ nav{
     padding-top: 2vh;
     gap: 25px;
 }
+main{
+    background-color: white;
+    height: 44vh;
+}
+footer{
+    background-color: white;
+    height: 24vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
 img{
     height: 250px;
     width: 250px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+/* kontener dla blokow */
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+/* klasa dla pojedynczego bloku */
+.blok{ 
+    width: 250px;
+    border-radius: 5%;
+    background-color: #eee;
+}
+h3{
+    text-align: center;
+}
+p{
+    padding: 10px;
+}
+/* klasa stworzona dla logo zeby selektor img odnosil sie tylko do zdjec w bloku */
+.logo{
+    width: 150px;
+    height: 150px;
+}
+/* klasa stworzona po to zeby linki nie byly pod soba */
+.link{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+/* kontener dla linkow */
+.link-container{
+    display: flex;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
 }
