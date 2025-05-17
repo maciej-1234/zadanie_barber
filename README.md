@@ -1,1 +1,1 @@
-# zadanie_barber
+# zadanie_barber, jest to zadanie dodatkowe ze szkoly
